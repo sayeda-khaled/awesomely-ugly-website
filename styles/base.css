@@ -4,31 +4,40 @@ h1 {
   font-size: 100px;
 }
 
-#image1 {
-  max-width: 10%;
+h2 {
+  color: orange;
+  text-align: center;
+  font-size: 70px;
+}
+
+#image{
+  max-width: 30%;
   height: auto;
   margin: left;
   display: block;
   width: 1000px;
+  padding: 10px;
+
 
 }
 
-#image1:hover {
+#image:hover {
   transform: scale(1.5);
 }
 
-#image2 {
-  max-width: 10%;
+/* #image2 {
+  max-width: 20%;
   height: auto;
   margin: left;
   display: block;
   width: 1000px;
+  padding: 10px;
 
 }
 
 #image2:hover {
   transform: scale(1.5);
-}
+} */
 
 /* #image1:hover {
   animation-name: width;
@@ -44,13 +53,43 @@ h1 {
   font-size: 30px;
 }
 
-/* body {
-  background-image:
-    url("https://images.pexels.com/photos/638738/pexels-photo-638738.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-  background-size: cover;
-} */
+body {
+  background-color: orange;
+
+}
+
+#img1-caption {
+  font-weight: bold;
+  color: blue;
+
+}
+
+#img2-caption {
+  font-weight: bold;
+  color: blue;
+
+}
 
 #img-caption {
   font-weight: bold;
-  color: brown
+  color: blue;
+
+}
+
+/* #img2-caption {
+  font-weight: bold;
+  color: green;
+} */
+
+ul{
+  line-height: 30px;
+  font-size: 17px;
+
+}
+
+p{
+  color: brown;
+  text-align: justify;
+  font-size: 20px;
+
 }
