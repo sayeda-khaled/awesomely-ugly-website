@@ -1,0 +1,56 @@
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 100px;
+}
+
+#image1 {
+  max-width: 10%;
+  height: auto;
+  margin: left;
+  display: block;
+  width: 1000px;
+
+}
+
+#image1:hover {
+  transform: scale(1.5);
+}
+
+#image2 {
+  max-width: 10%;
+  height: auto;
+  margin: left;
+  display: block;
+  width: 1000px;
+
+}
+
+#image2:hover {
+  transform: scale(1.5);
+}
+
+/* #image1:hover {
+  animation-name: width;
+  animation-duration: 1000ms;
+} */
+/*
+@keyframes width {
+  100% {
+    width: 40px;
+  }
+} */
+#main-para {
+  font-size: 30px;
+}
+
+/* body {
+  background-image:
+    url("https://images.pexels.com/photos/638738/pexels-photo-638738.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+} */
+
+#img-caption {
+  font-weight: bold;
+  color: brown
+}
